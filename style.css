@@ -4,6 +4,17 @@
   border: 1px solid #000;
 }
 
+.glass {
+  position: absolute;
+  top: 150px;
+  left: 40px;
+  width: 80px;
+  box-sizing: content-box;
+  border-width: 120px 10px 0;
+  border-style: solid;
+  border-color: black transparent;
+}
+
 .top-bun {
   width: 130px;
   height: 30px;
@@ -26,8 +37,15 @@
 .bottom-bun {
   width: 130px;
   height: 30px;
-  color: black;
   position: absolute;
   box-shadow: 150px 230px 0 0 currentColor;
+  border-radius: 0 0 30px 30px;
+}
+
+.plate {
+  width: 280px;
+  height: 20px;
+  position: absolute;
+  box-shadow: 10px 270px 0 0 currentColor;
   border-radius: 0 0 30px 30px;
 }
